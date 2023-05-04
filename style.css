@@ -1,0 +1,19 @@
+.topImage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px solid red;
+    padding: 25px;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+
+}
+
+.leftBox{
+    display: grid;
+    border: 5px solid red;
+    height: 750px;
+    width: 250px;
+    margin-left: 10px;
+}
