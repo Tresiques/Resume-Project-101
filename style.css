@@ -1,19 +1,55 @@
-.topImage{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border: 5px solid red;
-    padding: 25px;
-    margin: 5px;
-    height: 200px;
-    width: 200px;
-    margin-left: 10px;
-
+.resume{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+    height: 1080px;
 }
 
-.leftBox{
-    display: grid;
+.leftColumn{
+    display:grid;
+    grid-template-rows: 33% 66%;
     border: 5px solid red;
-    height: 750px;
-    width: 250px;
-    margin-left: 10px;
+}
+
+.topLeft{
+    border: 5px solid red;
+    background-color: lightblue;
+}
+
+.bottomLeft{
+    display: grid;
+    background-color: #1c1c1c;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topRight{
+    display:grid;
+    border: 5px solid red;
+}
+
+.bottomRight{
+    display: grid;
+}
+.socialLinks{
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.education{
+    background-color:#1c1c1c;
+    color: white;
+}
+
+.contactInfo{
+    background-color: #1c1c1c;
+    color: white;
+}
+
+
+.right-column{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    border:5px solid red;
+}
+
+.profileInfo{
 }
