@@ -1,55 +1,120 @@
 .resume{
     display:grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 33% 66%;
     grid-gap: 20px;
     height: 1080px;
+}
+
+.picture{
+    height: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    /* object-fit: cover; */
 }
 
 .leftColumn{
     display:grid;
     grid-template-rows: 33% 66%;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .topLeft{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     background-color: lightblue;
 }
 
 .bottomLeft{
     display: grid;
+    color: white;
     background-color: #1c1c1c;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.contact, .phone, .email, .location, .socials, .learning, .languages, .tech, .references, .experience, .excellent, .greatPlace, .goodPlace{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
 .topRight{
     display:grid;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
 .bottomRight{
     display: grid;
 }
-.socialLinks{
+
+.languages, .tech, .references, .jane{
+    text-decoration: underline;
+}
+
+/* .jane{
+    text-decoration:underline
+} */
+/* .socialLinks{
     background-color: #1c1c1c;
     color: white;
 }
 
 .education{
+    display: grid;
     background-color:#1c1c1c;
     color: white;
 }
 
 .contactInfo{
+    display: grid;
     background-color: #1c1c1c;
     color: white;
-}
+} */
 
 
 .right-column{
     display: grid;
     grid-template-rows: 50% 50%;
-    border:5px solid red;
+    /* border:5px solid red;
+} */
+
+.profileIn{}
+
+
+/* .contact{
+    text-decoration: underline;
 }
 
-.profileInfo{
+.email{
+    text-decoration: underline;
 }
+
+.address{
+    text-decoration: underline;
+}
+
+.socials {
+    text-decoration: underline;
+}
+
+.learning {
+    text-decoration: underline;
+}
+
+.profileTitle{
+    text-decoration: underline;
+} */
+
+/* .experience, .excellent, .greatPlace, .goodPlace{ */
+    text-decoration: underline;
+}
+
+/* .greatPlace{
+    text-decoration: underline;
+}
+
+.goodPlace {
+    text-decoration: underline;
+} */
+
+/* .excellent {
+    text-decoration: underline;
+} */
